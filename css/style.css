@@ -1,0 +1,26 @@
+:root {
+  --canvas-width: 1200px;
+}
+body {
+  background: black;
+}
+#container {
+  position: absolute;
+  width: var(--canvas-width);
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  font-size: 25px;
+}
+canvas {
+  position: relative;
+  width: var(--canvas-width);
+  height: 700px;
+}
+#slider {
+  width: 100%;
+}
+p {
+  font: small-caps bold 24px/1 sans-serif;
+  color: rgb(56, 238, 10);
+}
